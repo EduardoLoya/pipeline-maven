@@ -10,4 +10,4 @@ echo $PASS >> /tmp/.auth
 #scp   -i /opt/aws_linuxfacilito.pem /tmp/.auth  centos@linuxfacilito.online:/tmp/.auth
 #scp -i /opt/aws_linuxfacilito.pem ./jenkins/deploy/publish centos@linuxfacilito.online:/tmp/publish
 #ssh -i /opt/aws_linuxfacilito.pem  centos@linuxfacilito.online /tmp/publish
-ssh ./jenkins/deploy/publish
+./jenkins/deploy/publish
